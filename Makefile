@@ -12,3 +12,12 @@ run:
 
 llm:
 	ollama serve
+
+streamlit:
+	streamlit run app.py -- -de True
+
+streamlit-new:
+	streamlit run app.py -- -c True -de True
+
+streamlit-add:
+	streamlit run app.py -- -c True -d '["file.json"]' -de True
