@@ -1,0 +1,7 @@
+langchain
+streamlit
+scrapy
+loguru
+transformers
+angle_emb
+pandas
